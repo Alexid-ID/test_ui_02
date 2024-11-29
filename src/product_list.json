@@ -1,0 +1,133 @@
+[
+	{
+		"id": 1,
+		"productName": "Cam Navel Mỹ hộp 2kg lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullam",
+		"price": 350000,
+		"basePrice": 350000,
+		"discountPrice": 0,
+		"isDiscounted": true,
+		"discountPercent": 12,
+		"tags": ["Giảm giá 20%", "Mỹ"],
+		"productImage": "/assets/images/cam_navel.png"
+	},
+	{
+		"id": 2,
+		"productName": "Táo Mỹ & Nam Phi túi 1.5kg (1 Túi)",
+		"price": 1200000,
+		"basePrice": 1200000,
+		"discountPrice": 0,
+		"isDiscounted": true,
+		"discountPercent": 10,
+		"tags": ["Ưu đãi online", "Úc"],
+		"productImage": "/assets/images/product.png"
+	},
+	{
+		"id": 3,
+		"productName": "Dưa hấu ruột đỏ 5kg",
+		"price": 600000,
+		"basePrice": 650000,
+		"discountPrice": 50000,
+		"isDiscounted": true,
+		"discountPercent": 8,
+		"tags": [],
+		"productImage": "/assets/images/dua_hau.png"
+	},
+	{
+		"id": 4,
+		"productName": "Xoài Cát Hòa Lộc 1kg",
+		"price": 120000,
+		"basePrice": 150000,
+		"discountPrice": 30000,
+		"isDiscounted": true,
+		"discountPercent": 20,
+		"tags": ["Xoài đặc sản", "Tươi ngon"],
+		"productImage": "/assets/images/xoai.png"
+	},
+	{
+		"id": 5,
+		"productName": "Nho Mỹ 1kg",
+		"price": 250000,
+		"basePrice": 300000,
+		"discountPrice": 50000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Giảm giá", "Mỹ"],
+		"productImage": "/assets/images/nho_my.png"
+	},
+	{
+		"id": 6,
+		"productName": "Dưa lưới Nhật Bản 1 quả",
+		"price": 800000,
+		"basePrice": 1000000,
+		"discountPrice": 200000,
+		"isDiscounted": true,
+		"discountPercent": 20,
+		"tags": [],
+		"productImage": "/assets/images/dua_luoi.png"
+	},
+	{
+		"id": 7,
+		"productName": "Mít Thái 2kg",
+		"price": 400000,
+		"basePrice": 450000,
+		"discountPrice": 50000,
+		"isDiscounted": false,
+		"tags": ["Mít Thái"],
+		"productImage": "/assets/images/mit_thai.png"
+	},
+	{
+		"id": 8,
+		"productName": "Dừa xiêm 1 quả",
+		"price": 50000,
+		"basePrice": 60000,
+		"discountPrice": 10000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Dừa xiêm"],
+		"productImage": "/assets/images/dua_xiem.png"
+	},
+	{
+		"id": 9,
+		"productName": "Dừa xiêm 1 quả",
+		"price": 50000,
+		"basePrice": 60000,
+		"discountPrice": 10000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Dừa xiêm"],
+		"productImage": "/assets/images/dua_xiem.png"
+	},
+	{
+		"id": 10,
+		"productName": "Dừa xiêm 1 quả",
+		"price": 50000,
+		"basePrice": 60000,
+		"discountPrice": 10000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Dừa xiêm"],
+		"productImage": "/assets/images/dua_xiem.png"
+	},
+	{
+		"id": 11,
+		"productName": "Dừa xiêm 1 quả",
+		"price": 50000,
+		"basePrice": 60000,
+		"discountPrice": 10000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Dừa xiêm"],
+		"productImage": "/assets/images/dua_xiem.png"
+	},
+	{
+		"id": 12,
+		"productName": "Dừa xiêm 1 quả",
+		"price": 50000,
+		"basePrice": 60000,
+		"discountPrice": 10000,
+		"isDiscounted": true,
+		"discountPercent": 17,
+		"tags": ["Dừa xiêm"],
+		"productImage": "/assets/images/dua_xiem.png"
+	}
+]

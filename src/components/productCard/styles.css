@@ -1,0 +1,132 @@
+.product-card {
+	border-radius: 8px;
+	width: 100%;
+}
+
+.product-card_img {
+	position: relative;
+	width: 100%;
+	padding-bottom: 4px;
+}
+
+.product-card_img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.product-card .good-price {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.product-card_img .discount {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #f4de6a;
+	color: #2d3748;
+	border-radius: 0 8px 0 8px;
+	padding: 8px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+}
+
+.product-card .tag-list {
+	position: absolute;
+	left: 4px;
+	bottom: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1px;
+}
+
+.tag-list .tag {
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 12px;
+	text-align: center;
+
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+
+.tag-list .tag.blue {
+	color: #3280f6;
+	background-color: #e6f1ff;
+}
+
+.tag-list .tag.green {
+	color: #38a169;
+	background-color: #f0fff4;
+}
+
+.tag-list .tag.red {
+	color: #e53e3e;
+	background-color: #fff5f5;
+}
+
+.tag-list .tag.yellow {
+	color: #d69e2e;
+	background-color: #fffdf0;
+}
+
+.product-card .product-card_info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.product-card_info .price {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	min-height: 52px;
+}
+
+.product-card_info .discount-price {
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 12px;
+	color: #38a169;
+    margin-left: 4px;
+}
+
+.product-card_info .base-price-container {
+}
+
+.product-card_info .base-price {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	text-decoration-line: line-through;
+}
+
+.product-card_info .product-name {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #4a5568;
+
+    /* truncate 2 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* truncate with ellipsis */
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.see-all {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	color: #3280f6;
+	height: 35px;
+    margin: 8px auto;
+    cursor: pointer;
+}

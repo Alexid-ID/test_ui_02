@@ -1,0 +1,9 @@
+.category-info {
+    height: 96px;
+    background-color: #EDF2F7;
+    border-radius: 8px;
+}
+
+.category-info img {
+    border-radius: 8px;
+}

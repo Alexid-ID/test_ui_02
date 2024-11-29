@@ -1,0 +1,105 @@
+.slider-container {
+	height: 307px;
+	width: 100%;
+	padding: 8px;
+}
+
+.slider {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+    border-radius: 8px;
+}
+
+.slider .list {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	transition: 1s;
+    border-radius: 8px;
+}
+.slider .list img {
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}
+.slider .slider-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .slider-buttons button {
+    background-color: #000000A3;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-prev {
+    margin-left: 18px;
+}
+
+.btn-next {
+    margin-right: 18px;
+}
+
+.slider .dots {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+    gap: 4px;
+}
+.slider .dots li {
+	list-style: none;
+	width: 60px;
+	height: 2px;
+	background-color: #0000007A;
+	transition: 0.5s;
+}
+.slider .dots li.active {
+	background-color: #fff;
+}
+
+.indicator {
+	position: absolute;
+	right: 20px;
+	bottom: 17px;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #000000cc;
+
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+	.slider {
+		height: 400px;
+	}
+}
